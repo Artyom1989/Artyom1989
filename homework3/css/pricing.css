@@ -1,0 +1,104 @@
+.pricing{
+  width: 100%;
+  height: 100%;
+  background-color: #E5E5E5;
+}
+
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.pricing-titel{
+  padding-top: 80px;
+  margin-bottom: 34px;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+#pricing-line{
+  margin-top: 34px;
+  background-color: #E72424;
+  width: 64px;
+  height: 2px;
+  margin: 34px auto;
+}
+
+.pricing-titel-discription{
+  margin-top: 34px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  color: #86878B;
+  text-align: center;
+}
+
+.pricing-ways{
+  margin: 0px -15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pricing-card{
+  width: 340px;
+  margin: 63px 25px 80px;
+}
+
+.pricing-name{
+  line-height: 27px;
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #333333;
+}
+
+.pricing-cost{
+  line-height: 41px;
+  font-size: 35px;
+  font-family: Raleway;
+  font-weight: bold;
+  text-align: center;
+  ccolor: #FFFFFF;
+  background-color: #333333;
+  margin: 2px 0px;
+}
+
+.pricing-slogan{
+  line-height: 19px;
+  font-size: 14px;
+  font-family: Open Sans;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #333333;
+}
+
+.pricing-slogan-unic{
+  line-height: 19px;
+  font-size: 14px;
+  font-family: Open Sans;
+  font-weight: 800;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #D98943;
+}
+
+.option{
+  line-height: 19px;
+  font-size: 14px;
+  font-family: Open Sans;
+  font-weight: normal;
+  text-align: center;
+  color: #86878B;
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,13 @@
+/* import components */
+@import url("awesome.css");
+@import url("pricing.css");
+/* common styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
