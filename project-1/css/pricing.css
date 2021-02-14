@@ -4,12 +4,6 @@
   background-color: #E5E5E5;
 }
 
-.container{
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: auto;
-}
-
 .pricing-titel{
   padding-top: 80px;
   margin-bottom: 34px;
@@ -22,12 +16,15 @@
   text-transform: uppercase;
 }
 
-#pricing-line{
-  margin-top: 34px;
-  background-color: #E72424;
+.pricing-titel::after{
+  content: "";
+  display: block;
   width: 64px;
   height: 2px;
-  margin: 34px auto;
+  background-color: #E72424;
+  margin: auto;
+  margin-bottom: 34px;
+  margin-top: 34px;
 }
 
 .pricing-titel-discription{
@@ -49,11 +46,12 @@
 
 .pricing-card{
   width: 340px;
-  margin: 63px 25px 80px;
+  margin: 63px 15px 80px;
 }
 
 .pricing-name{
-  line-height: 27px;
+  padding-top: 15px;
+  padding-bottom: 8px;
   font-size: 20px;
   font-family: Open Sans;
   font-weight: bold;
@@ -63,7 +61,8 @@
 }
 
 .pricing-cost{
-  line-height: 41px;
+  padding-top: 26px;
+  padding-bottom: 33px;
   font-size: 35px;
   font-family: Raleway;
   font-weight: bold;
@@ -94,11 +93,16 @@
 }
 
 .option{
-  line-height: 19px;
+  line-height: 40px;
+  margin-bottom: 2px;
   font-size: 14px;
   font-family: Open Sans;
   font-weight: normal;
   text-align: center;
   color: #86878B;
   background-color: #FFFFFF;
+}
+
+.option:last-child{
+  margin-bottom: -2px;
 }

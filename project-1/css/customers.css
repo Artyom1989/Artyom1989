@@ -1,0 +1,109 @@
+.customers{
+  width: 100%;
+  height: 100%;
+}
+
+.customers-titel{
+  margin-top: 80px;
+  margin-bottom: 34px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 42px;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.customers-titel::after{
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  background-color: #E72424;
+  margin: 34px auto;
+}
+
+.customers-titel-discription{
+  margin-top: 34px;
+  margin-bottom: 67px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  color: #86878B;
+  text-align: center;
+}
+
+.customers-quotes{
+  display: flex;
+  justify-content: space-around;
+  margin: 0px -15px 123px;
+}
+
+.customers-quotes_item{
+  margin: 0px 15px;
+  width: 300px;
+}
+
+.quote{
+  padding: 10px;
+  text-align: center;
+  color: #86878B;
+  background-color: #E2E2E2;
+  border-radius: 7px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  position: relative;
+}
+.quote::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #E2E2E2;
+  /* background-color: #9e1818; */
+  bottom: -10px;
+  left: 39px;
+  width: 17px;
+  height: 17px;
+  transform: rotate(-45deg);
+}
+
+.quote_author{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quote_author_avatar{
+  width: 70px;
+  height: 70px;
+  padding-top: 22px;
+}
+
+.quote_author_name{
+  padding-top: 30px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+  text-align: right;
+}
+
+.quote_author_profession{
+padding-top: 12px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #86878B;
+text-align: right;
+}

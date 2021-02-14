@@ -1,6 +1,8 @@
 /* import components */
 @import url("awesome.css");
 @import url("pricing.css");
+@import url("customers.css");
+@import url("axure.css");
 /* common styles */
 * {
   margin: 0;
@@ -10,4 +12,10 @@
 
 ul{
   list-style: none;
+}
+
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
 }

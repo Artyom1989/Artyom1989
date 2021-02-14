@@ -1,0 +1,65 @@
+.axure{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/bg/background\ 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.axure::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.55);
+  top: 0;
+  left: 0;
+}
+
+.axure-titel{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.axure-titel::after{
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 34px auto;
+  background-color: #FFFFFF;
+}
+
+.axure-titel-discription{
+  margin-bottom: 57px;
+  text-align: center;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.axure-button{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  display: block;
+  width: 150px;
+  margin: auto;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px
+
+}
