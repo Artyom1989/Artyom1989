@@ -1,0 +1,51 @@
+.social{
+  background-color: #F8EFEF;
+}
+
+.social__wrapper{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.social__text{
+  width: 400px;
+}
+
+.social__title{
+  margin-top: 10px;
+}
+
+.social__content{
+  color: #86878B; 
+  padding: 20px 0;
+}
+
+.social__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social__icons .fab,
+.social__icons .fas{
+  font-size: 40px;
+  padding: 10px;
+  
+}
+
+.social__icons .fab
+{
+  margin-right: 15px;   
+}
+
+.social__links{
+  color: #86878B;
+  transition: all 0.5s;
+}
+
+.social__links:hover{
+  color: crimson;
+  transform: scale(1.3);
+
+}

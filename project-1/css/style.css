@@ -3,6 +3,12 @@
 @import url("pricing.css");
 @import url("customers.css");
 @import url("axure.css");
+@import url("contact.css");
+@import url("footer.css");
+@import url("tabs.css");
+@import url("social.css");
+@import url('prototypes.css');
+@import url("header.css");
 /* common styles */
 * {
   margin: 0;
@@ -18,4 +24,6 @@ ul{
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
+  position: relative;
+  z-index: 1;
 }
